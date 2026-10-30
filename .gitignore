@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.expo/
+*.log
+
+# Config npm locale (peut contenir un jeton d accès)
+.npmrc

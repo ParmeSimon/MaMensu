@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Ma Mensu",
+    "slug": "mamensu",
+    "scheme": "mamensu",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "fr.mamensu.app",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "fr.mamensu.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

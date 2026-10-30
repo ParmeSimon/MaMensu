@@ -1,0 +1,17 @@
+{
+  "name": "mamensu",
+  "private": true,
+  "description": "Ma Mensu – Paie assmat & parents",
+  "workspaces": [
+    "packages/*",
+    "mobile"
+  ],
+  "scripts": {
+    "test": "npm test --workspace @mamensu/engine",
+    "mobile": "npm start --workspace mobile"
+  },
+  "overrides": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
